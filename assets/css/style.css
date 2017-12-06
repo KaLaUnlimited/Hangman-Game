@@ -9,24 +9,30 @@ body {
 
 
 .wrapper{
+    background-image: url("dust_scratches.png");
 
-    background-color: black;
-    width:75%;
+    /*background-image: url("polka-dotsA.png");*/
+    /*background-color: black;*/
+    width:55%;
     float:left;
-    height:250px;
-    margin-left: 10%;
+    height:430px;
+    margin-left: 22%;
+    margin-top: 55px;
 }
 .leftBlock{
-    background-color: #777777;
+    
+   /* background-color: #777777;*/
         color: white;
-        width:50%;
+        width:40%;
    /* background-image:url("assets/images/itemsBackground.jpeg");*/
    float:left;
    height:25px;
    position: static;
+   margin-left: 10%;
+   height:175px;
 }
 .rightBlock{
-    width:50%;
+    width:40%;
     background-color: yellow;
     float:left;
 
@@ -36,7 +42,10 @@ body {
 h1{
     color: black;
     text-align: center;
-    background-color: #777777;
+    background-image: url("polka-dotsA.png");
+    /*background-color: #777777;*/
+    padding:0;
+    height:54px;
 }
 
 /* Keep it simple - improvement would be to not display characters */
