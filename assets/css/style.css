@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-}
+};
 body {
     font-family: sans-serif;
     background-color: black;
@@ -13,29 +13,42 @@ body {
 
     /*background-image: url("polka-dotsA.png");*/
     background-color: black;
-    width:55%;
+    width:84%;
     float:left;
-    height:430px;
-    margin-left: 22%;
+    height:406px;
+    padding-top:60px;
+    margin-left: 9%;
     margin-top: 55px;
+    border-style: dotted;
+    border-color: gold;
+    border-width: 4px;
+
 }
 .leftBlock{
+    box-shadow: 0 0 8px 8px gold inset;
+    font-family: 'Ranchers', cursive;
+    padding-left: 70px;
+    padding-top: 50px;
     
    /* background-color: #777777;*/
         color: white;
         width:40%;
    /* background-image:url("assets/images/itemsBackground.jpeg");*/
    float:left;
-   height:25px;
+   height:65px;
    position: static;
    margin-left: 10%;
    height:175px;
 }
 .rightBlock{
+    box-shadow: 0 0 8px 8px white inset;
     width:40%;
-    background-color: yellow;
+    background-color: black;
     float:left;
    position: static;
+   height: 318px;
+   padding-top: 162px;
+   padding-left: 35px;
 }
 
 h1{
@@ -45,9 +58,20 @@ h1{
     color: black;
     text-align: center;
     /*background-image: url("polka-dotsA.png");*/
-    background-color: gold;
+    /*background-color: gold;*/
+    background: -webkit-linear-gradient(left top, red, gold); 
     padding-top:15px;
     height:110px;
+    border-style: dotted;
+    border-color: black;
+    border-width: 4px;
+}
+img{
+    box-shadow: 0 0 100px 8px blue inset;
+    border-radius: 25px;
+    width:70px;
+    border-style: 
+    /*box-shadow: 0 0 16px 8px gold inset;*/
 }
 
 /* Keep it simple - improvement would be to not display characters */
@@ -82,4 +106,20 @@ h1{
 .win {
     color: green;
     opacity: 1;
+}
+.current-word{
+    font-family: 'Ranchers', cursive;
+    color:white;
+}
+form{
+    background-color: black;
+    height: 65px;
+}
+#man{
+    font-family: 'Ranchers', cursive;
+    color: white;
+}
+#hangman{
+    background-color: black;
+    width:75%;
 }
