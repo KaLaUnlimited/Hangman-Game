@@ -35,10 +35,9 @@ body {
         width:40%;
    /* background-image:url("assets/images/itemsBackground.jpeg");*/
    float:left;
-   height:65px;
    position: static;
    margin-left: 10%;
-   height:175px;
+   height:318px;
 }
 .rightBlock{
     box-shadow: 0 0 8px 8px white inset;
@@ -65,6 +64,7 @@ h1{
     border-style: dotted;
     border-color: black;
     border-width: 4px;
+    margin-top:0px;
 }
 img{
     box-shadow: 0 0 100px 8px blue inset;
